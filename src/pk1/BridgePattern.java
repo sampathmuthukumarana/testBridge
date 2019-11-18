@@ -5,6 +5,7 @@ public class BridgePattern {
     { 
 		System.out.println("Testing git");
 		System.out.println("Testing cmd");
+		System.out.println("Testing cmd pull");
         Vehicle vehicle1 = new Car(new Produce(), new Assemble()); 
         vehicle1.manufacture(); 
         Vehicle vehicle2 = new Bike(new Produce(), new Assemble()); 
